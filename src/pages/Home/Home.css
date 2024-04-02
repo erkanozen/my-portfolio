@@ -1,0 +1,155 @@
+.home-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 4em;
+  height: 100vh;
+}
+
+.home-info-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.home-info-title {
+  font-size: 3em;
+}
+
+.home-info-job {
+  font-size: 2em;
+  font-weight: bolder;
+}
+
+.home-info-head {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.home-info {
+  width: 400px;
+  font-size: 1.4em;
+  margin: 10px 0;
+}
+
+.home-contact-button {
+  text-decoration: none;
+  padding: 8px;
+  width: 200px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+.home-contact-container {
+  display: flex;
+  column-gap: 30px;
+  margin-top: 2em;
+  font-size: 30px;
+}
+
+.home-contact-container-a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.home-contanct-icon {
+  font-size: 0.9em;
+}
+
+.home-image {
+  width: 400px;
+  border-radius: 50%;
+  margin-bottom: 50px;
+}
+
+.up-icon {
+  position: fixed;
+  background-color: #fdd700;
+  border-radius: 50%;
+  color: black;
+  font-size: 2em;
+  bottom: 1em;
+  right: 2em;
+}
+
+@media (max-width: 1000px) {
+  .home-container {
+    padding: 2em;
+  }
+  .home-info-title {
+    font-size: 2.2em;
+  }
+  .home-info-job {
+    font-size: 1.2em;
+  }
+  .home-info {
+    width: 300px;
+    font-size: 1.1em;
+  }
+  .home-image {
+    width: 300px;
+  }
+}
+
+@media (max-width: 768px) {
+  .home-info-title {
+    font-size: 1.8em;
+  }
+  .home-info-job {
+    font-size: 1.3em;
+  }
+  .home-info {
+    width: 200px;
+    font-size: .9em;
+  }
+  .home-image {
+    width: 200px;
+  }
+  .home-contact-button {
+    font-size: 18px;
+    width: 150px;
+  }
+  .up-icon {
+    right: .5em;
+    bottom: .4em;
+  }
+}
+
+@media (max-width:500px) {
+  .home-container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .home-image {
+  display: none;
+  }
+  .home-info-title {
+    font-size: 2em;
+  }
+  .home-info-job {
+    font-size: 1.5em;
+  }
+  .home-info {
+    width: 400px;
+    font-size: 0.8em;
+  }
+  .home-contact-button{
+   margin: 0 auto;
+  }
+  .home-contact-container {
+    justify-content: center;
+    margin-top: 6em;
+  }
+  .up-icon {
+    font-size: 1.5em;
+    right: .2em;
+    bottom: .2em;
+  }
+}

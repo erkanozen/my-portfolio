@@ -1,0 +1,12 @@
+.footer-container {
+    display: flex;
+    justify-content: center;
+    column-gap: 2em;
+    padding: 1em;
+    background-color: black;
+    border-top: 1px solid #fdd700;
+}
+
+.footer-container a {
+    font-size: 2em;
+}

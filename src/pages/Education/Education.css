@@ -1,0 +1,103 @@
+.education-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 2em;
+}
+.education-main-title {
+  margin-bottom: 0.5em;
+}
+
+.education-info-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  padding: 1.2em;
+  row-gap: 0.2em;
+  border-radius: 10px;
+  margin-bottom: 1em;
+  cursor: pointer;
+}
+
+
+.education-date-container {
+  display: flex;
+  align-items: center;
+  column-gap: 0.5em;
+  font-weight: bolder;
+}
+
+.education-date-icon {
+  font-size: 1.2em;
+}
+
+.education-date {
+  font-size: 1em;
+}
+
+.education-school {
+  font-size: 1.2em;
+}
+
+.education-info {
+  font-weight: bolder;
+}
+.education-avarage {
+  font-size: 0.8em;
+  font-weight: bolder;
+}
+.education-school-icons {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+}
+
+@media (max-height: 648px) {
+  .education-container {
+    height: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .education-info-container {
+    width: 100%;
+  }
+  .education-date-icon {
+    font-size: 1.4em;
+  }
+  .education-date {
+    font-size: 0.9em;
+  }
+  .education-school {
+    font-size: 1em;
+  }
+  .education-info {
+    font-size: 0.8em;
+  }
+  .education-avarage {
+    font-size: 0.8em;
+  }
+}
+
+@media (max-width: 500px) {
+  .education-info-container {
+    width: 100%;
+  }
+  .education-date-icon {
+    font-size: 1em;
+  }
+  .education-date {
+    font-size: 0.6em;
+  }
+  .education-school {
+    font-size: 0.8em;
+  }
+  .education-info {
+    font-size: 0.5em;
+  }
+  .education-avarage {
+    font-size: 0.5em;
+  }
+}
